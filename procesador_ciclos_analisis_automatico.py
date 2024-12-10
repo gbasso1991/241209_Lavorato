@@ -62,7 +62,7 @@ todos=1
 un_solo_fondo=1
 resto_fondo=1
 templog = 0
-nombre='*LB100CP2'
+nombre='*LB100OH'
 Analisis_de_Fourier = 1 # sobre las señales, imprime espectro de señal muestra
 N_armonicos_impares = 15
 concentracion =0.7*1e3 #[concentracion]= g/m^3 (1 g/l == 1e3 g/m^3) (Default = 10000 g/m^3)
