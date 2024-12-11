@@ -195,7 +195,7 @@ ax2.plot(H97_2, m_97_2, label=labels_97[1] + f' - {concentracion_97[1]:.2f} g/L'
 # # ax2.plot(H97_4, m_97_4, label=labels_97[3] + f' - {concentracion_97[3]:.2f} g/L')
 ax2.set_title('97', fontsize=14)
 
-ax1.set_ylabel('M/[NPM] (Am/kg)')
+ax1.set_ylabel('M/[NPM] (Am²/kg)')
 for a in [ax1,ax2]:
     a.grid()
     a.legend(ncol=1)
@@ -221,7 +221,7 @@ ax2.plot(H97_2, m_97_2, '.-', label=labels_97[1] + f' - {Hc_97_2:.0f} A/m', c='t
 
 ax2.set_xlim(-100e2, 100e2)
 ax2.set_ylim(-22, 22)
-ax1.set_ylabel('M/[NPM] (Am/kg)')
+ax1.set_ylabel('M/[NPM] (Am²/kg)')
 for a in [ax1,ax2]:
     a.grid()
     a.legend(title='Campo Coercitivo',ncol=2,loc='upper center', bbox_to_anchor=(0.5, -0.15))
@@ -463,7 +463,7 @@ for a in [ax3,ax4]:
     a.set_xlabel('H (A/m)')
 
 for a in [ax1,ax3]:
-    a.set_ylabel('M/[NPM] (Am/kg)')
+    a.set_ylabel('M/[NPM] (Am²/kg)')
 
 plt.savefig('ciclos_100_97_aq_VS55.png', dpi=400, facecolor='w')
 plt.show()
